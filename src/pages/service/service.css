@@ -1,0 +1,34 @@
+.serviceCon {
+    background-color: antiquewhite;
+    padding: 3%;
+}
+
+.service {
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.serviceHeading {
+    text-align: center;
+}
+
+.serviceData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem 0;
+    padding: 3% 0;
+}
+
+@media screen and (min-width:671px) and (max-width : 1020px) {
+    .serviceData {
+        justify-content: space-evenly;
+        padding: 5% 0;
+    }
+
+    .serviceCon {
+        padding: 10%;
+    }
+}
